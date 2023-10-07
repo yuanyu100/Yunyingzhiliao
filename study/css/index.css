@@ -1,0 +1,177 @@
+/* index.css用来美化首页 */
+*{
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    /* 清小圆点 */
+}
+a{
+    text-decoration: none;
+    /* 超链接下划线清 */
+}
+.clearfix:before,.clearfix::after{
+    content:"" ;
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+    /* 为啥有些情况 跳出来是双冒号？ */
+}
+body{
+    background-color: white;
+}
+
+/* 版心 */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+.header {
+    height: 80px;
+  
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1{
+    float: left;
+}
+.nav{
+    float: left;
+    margin-left: 70px;
+    
+    height: 80px;
+
+    ;
+}
+
+.nav li{
+    
+    float: left;
+    margin-right: 26px;
+}
+
+.nav li a{
+    display: block;
+    padding: 0 9px;
+    height: 80px;
+    line-height: 80px;
+    /* border-bottom: 2px solid #00a4ff; */
+
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+
+/* .user{
+    float: right;
+    margin-right: 35px;
+    height: 80px;
+
+} */
+
+.banner {
+    height: 800px;
+    background-color:blue
+    ;
+}
+
+.banner .wrapper{
+    height: 800px;
+    width: auto;
+    /* 图片很大哈哈哈 */
+    background-image: url(../images/为医学影像而生.jpg);
+}
+
+/*项目介绍 */
+.boxx{
+    margin-top: 35px;
+
+}
+
+.boxx .title {
+    height: 40px;
+    
+}
+
+.boxx .title h2{
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+
+.boxx .title p{
+    float: left;
+    font-size: 20px;
+    color: #120202;
+    font-weight: 40;
+    
+}
+
+/* 很搞笑很烂这一段 啊啊额无语住了 boxx */
+/* 项目概况 */
+.box{
+    margin-top: 35px;
+
+}
+
+.box .title {
+    height: 40px;
+    
+}
+.box .title h2{
+    margin-top: 20px;
+    float: left;
+    font-size: 20px;
+    color: #494949;
+    font-weight: 400;
+}
+
+.box .content {
+    margin-top: 20px;
+    width: auto;
+}
+/* 图片放不来中间啊哎呀哎呀欸 */
+
+/* .box .title a{
+    float: right;
+} */
+/* 右浮动   最上面还得丰富一下*/
+
+
+/*  版权*/
+.footer{
+    margin-top: 40px;
+    padding-top: 30px;
+    height: 200px;
+    background-color: #e1dddd;
+}
+
+
+
+
+
+.footer .left {
+    float: left;
+}
+.footer .left p {
+    font-size: 12px;
+    color: #666;
+}
+.footer .right {
+    float: right;
+}
+.footer .right dl{
+    float: left;
+    margin-left: 120px;
+}
